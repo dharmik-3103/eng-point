@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0 10vw;
+}
+
+header {
+    background-color: white;
+    width: 80vw;
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+header .left {
+    display: flex;
+
+
+}
+
+header img {
+    width: 100px;
+    height: 90px;
+}
+
+header li a:hover {
+    color: blue;
+}
+
+header p {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 38vw;
+    /* margin-top: 34px; */
+    /* word-spacing: 20px; */
+}
+
+header .content a {
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header ul li {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+main .text {
+    margin-top: 100px;
+    width: 60%;
+    height: 100vh;
+}
+
+main .img {
+    margin-top: 100px;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main .tag_line {
+    margin-top: 140px;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-style: normal;
+    /* letter-spacing: px;  */
+}
+
+main .subtitle {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+main .start_btn input {
+    margin-top: 20px;
+    width: 130px;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    border: 0px;
+    height: 30px
+}
+
+main .categories {
+    width: 80vw;
+    height: 100vh;
+    margin-top: 300px;
+}
+
+main .categories .heading1 {
+    margin-top: 140px;
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 80vw;
+    /* height:100vh; */
+    font-style: normal;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+
+main .categories .content1 {
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: space-between;
+}
+
+main .categories .para1 {
+    display: block;
+    justify-content: right;
+    align-items: right;
+    /* align-content: right ; */
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: right;
+}
+
+main .categories .content1 .para1 #btn input {
+    margin-top: 20px;
+    width: 130px;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    border: 0px;
+    height: 30px;
+}
+
+main .categories .img1 {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin-top: -150px;
+}
+
+main .interview {
+    width: 80vw;
+    height: 100vh;
+    margin-top: 100px;
+    display: block;
+    justify-content: space-between;
+
+}
+
+main .interview .heading2 {
+    margin-top: 140px;
+    font-size: 3rem;
+    font-weight: bolder;
+    /* width: 80vw; */
+    /* height:100vh; */
+    font-style: normal;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-start;
+    margin-top: -150px;
+}
+
+main .content2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .interview .content2 .para2 {
+    /* display: block;
+    /* justify-content: left; 
+    align-items: left; */
+    /* align-content: right ; */
+    margin-top: 20px;
+    /*font-size: 1rem;
+    text-align: left; */
+}
+
+main .interview .img2 {
+    /* position: relative;
+    left: 60%;
+    display: flex;
+    width: 40%;
+    /* align-items: center; */
+    /*justify-content: flex-end;
+    height: 60vh;
+    margin-top: -280px; */
+    /* margin-top: 100px; */
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: right;
+    /* height: vh; */
+    
+}
+
+main .content2 #btn2 input {
+    margin-top: 20px;
+    width: 130px;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    border: 0px;
+    height: 30px;
+}

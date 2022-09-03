@@ -15,12 +15,11 @@ header {
     display: flex;
     justify-content: space-between;
     position: fixed;
+    opacity: 0.98;
 }
 
 header .left {
     display: flex;
-
-
 }
 
 header img {
@@ -44,8 +43,6 @@ header .content {
     justify-content: space-around;
     align-content: center;
     width: 38vw;
-    /* margin-top: 34px; */
-    /* word-spacing: 20px; */
 }
 
 header .content a {
@@ -70,7 +67,7 @@ main {
 main .text {
     margin-top: 100px;
     width: 60%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 main .img {
@@ -87,7 +84,6 @@ main .tag_line {
     font-size: 3rem;
     font-weight: bolder;
     font-style: normal;
-    /* letter-spacing: px;  */
 }
 
 main .subtitle {
@@ -107,7 +103,7 @@ main .start_btn input {
 
 main .categories {
     width: 80vw;
-    height: 100vh;
+    height: 79vh;
     margin-top: 300px;
 }
 
@@ -116,15 +112,12 @@ main .categories .heading1 {
     font-size: 3rem;
     font-weight: bolder;
     width: 80vw;
-    /* height:100vh; */
     font-style: normal;
     display: flex;
-    /* align-items: flex-end; */
     justify-content: flex-end;
 }
 
 main .categories .content1 {
-    /* display: inline-flex; */
     display: flex;
     justify-content: space-between;
 }
@@ -133,7 +126,6 @@ main .categories .para1 {
     display: block;
     justify-content: right;
     align-items: right;
-    /* align-content: right ; */
     margin-top: 20px;
     font-size: 1rem;
     text-align: right;
@@ -160,8 +152,8 @@ main .categories .img1 {
 
 main .interview {
     width: 80vw;
-    height: 100vh;
-    margin-top: 100px;
+    height: 75vh;
+    margin-top: 10px;
     display: block;
     justify-content: space-between;
 
@@ -171,11 +163,8 @@ main .interview .heading2 {
     margin-top: 140px;
     font-size: 3rem;
     font-weight: bolder;
-    /* width: 80vw; */
-    /* height:100vh; */
     font-style: normal;
     display: flex;
-    /* align-items: flex-end; */
     justify-content: flex-start;
     margin-top: -150px;
 }
@@ -183,33 +172,27 @@ main .interview .heading2 {
 main .content2 {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 main .interview .content2 .para2 {
-    /* display: block;
-    /* justify-content: left; 
-    align-items: left; */
-    /* align-content: right ; */
-    margin-top: 20px;
-    /*font-size: 1rem;
-    text-align: left; */
+    margin-top: 50px;
+}
+
+main .interview .content2 .para2 .heading2{
+margin-top: 20px;
+}
+
+main .interview .content2 .heading-content{
+margin-top: 20px;
 }
 
 main .interview .img2 {
-    /* position: relative;
-    left: 60%;
-    display: flex;
-    width: 40%;
-    /* align-items: center; */
-    /*justify-content: flex-end;
-    height: 60vh;
-    margin-top: -280px; */
-    /* margin-top: 100px; */
     display: flex;
     width: 40%;
     align-items: center;
     justify-content: right;
-    /* height: vh; */
+    margin-top: -50px;
     
 }
 
@@ -222,3 +205,24 @@ main .content2 #btn2 input {
     border: 0px;
     height: 30px;
 }
+
+main .footer{
+    position: relative;
+    display: flex;
+    bottom: 0;
+}
+
+footer .Footer{
+    align-items: center;
+    /* position: fixed;  */
+    justify-content: center;
+    /* left: 0; */
+    /* bottom: 0; */
+    width: 100%;
+    /* background-color: white; */
+    color: white;
+    text-align: center;
+    /* width: 100vw; */
+     margin: 0 auto;
+    color: black;
+  } 
